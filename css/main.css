@@ -18,7 +18,7 @@ body {
 
 /* header style */
 .headstyle {
-    height: 15vh;
+    /* height: 15vh; */
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +39,8 @@ h1, h2, h3 {
 
 /* header image style */
 .imheadstyle {
-    height: 100%;
+    /* height: 100%; */
+    height: 7.5rem;
 }
 
 pre {
@@ -80,4 +81,33 @@ pre {
 header, #intro {
     width: 90%;
     margin: auto;
+}
+
+#idmenu {
+    margin: 2rem 0;
+    background: #888;
+    padding: 0.1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+#idmenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+}
+
+#idmenu a {
+    font-family: 'Rock Salt', sans-serif;
+    color: #eee;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all 500ms ease-in-out;   
+}
+
+#idmenu a:hover {
+    background: #eee;
+    color: #888;
 }
