@@ -1,0 +1,10 @@
+.blue {
+    background: #88f;
+    color: #fff;
+}
+
+.jb_background {
+    background-image: url("../pics/blue_background.jpg");
+    background-size: cover;
+    color: #333;
+}
