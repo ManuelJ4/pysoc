@@ -77,7 +77,7 @@ pre {
     background-image: radial-gradient(#0b0, #fff);
 }
 
-#intro {
+header, #intro {
     width: 90%;
     margin: auto;
 }
