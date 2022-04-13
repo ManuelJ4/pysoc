@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    background:rgb(141, 245, 172);
+    background:#8DF5AC;
+    background: #05f812;
+    background: hsl(300, 50%, 75%);
+    background: rgba(0,255,127,1.0);
+    background: #0000ffff;
+    background-image:linear-gradient(#fff,#f0f);
+    background-image:radial-gradient(#0ff,#ff0);
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header style */
+.headstyle {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    letter-spacing: 0.75rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Rock Salt', sans-serif;
+    text-align: center;
+}
+
+.grayshadow {
+    text-shadow: .5rem .5rem .1rem #555;
+}
+
+
+/* header image style */
+.imheadstyle {
+    height: 100%;
+}
+
+pre {
+    font-size: 1rem;
+}
+
+.member {
+    background:#fff;
+    border: #000 solid 0.1rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* parent-child hierarchical selector */
+.member img {
+    width: 80%;
+    margin: 10%;
+    border-radius: 50%;
+}
+
+#members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.man {
+    background-image: linear-gradient(#00f, #fff);
+}
+
+
+.girl {
+    background-image: radial-gradient(#0b0, #fff);
+}
+
+#intro {
+    width: 90%;
+    margin: auto;
+}
