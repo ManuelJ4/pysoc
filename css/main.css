@@ -111,3 +111,14 @@ header, #intro {
     background: #eee;
     color: #888;
 }
+
+.photocv {
+    background: #fff;
+    border: #000 solid 0.1 rem;
+    width: 10%;
+    border-radius: 1rem;
+}
+
+.paracv {
+    background: #aaa;
+}
